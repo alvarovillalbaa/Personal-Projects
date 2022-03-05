@@ -54,7 +54,7 @@ void teamDraw()
         n = 1;
         while (n < teams)
         {
-            cout << n + ". " + finalArr[rand_i];
+            cout << n << ". " << finalArr[rand_i]; // We need to set a seed for generating different random numbers
             n++;
         }
         break;
