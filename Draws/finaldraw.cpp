@@ -62,7 +62,7 @@ void finalDraw()
             n = 1;
             while (n < teams)
             {
-                cout << n + ". " + finalArr[rand_i];
+                cout << n << ". " << finalArr[rand_i];
                 n++;
             }
             break;
@@ -88,7 +88,7 @@ void finalDraw()
             n = 1;
             while (n < size)
             {
-                cout << n + ". " + namesArr[rand_i]; // In a while does the rand_i take another number?
+                cout << n << ". " << namesArr[rand_i]; // We need to set a seed for generating different random numbers
                 n++;
             }
             break;
